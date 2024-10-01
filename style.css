@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+	color: white;
+	font-family: Inter;
+}
+
+body {
+	background-color: #fba6ff;
+}
+
+.box1 {
+	border-radius: 5px;
+	width: 500px;
+}
+
+.box2 {
+	width: 70%;
+}
+
+.text {
+	padding: 15px;
+	border-radius: 5px;
+	border-left: #ff00ee solid 5px;
+	display: flex;
+	margin: 50px;
+	background: #272727;
+	color: white;
+}
+
+.title {
+	color: #ea00ff;
+}
+
+.page {
+	display: flex;
+	border-radius: 5px;
+	background: #131313;
+	width: 70%;
+	height: 25%;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+.type {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+}
+
+.type > button {
+	background-color: #5fff4921;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid #51dd6b;
+	border-radius: 199591991919px;
+	color: #51dd6b;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
